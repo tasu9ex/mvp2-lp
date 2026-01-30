@@ -10,15 +10,15 @@
 - React 19
 - TypeScript
 - Tailwind CSS
-- shadcn/ui（new-york）※ Button のみ使用
+- shadcn/ui（new-york）
 
-fullsq-site と同じ土台で、DB・認証・Sentry・GA は未使用。
+
 
 ## 開発
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 `http://localhost:3000` で表示。
@@ -26,8 +26,17 @@ npm run dev
 ## ビルド・デプロイ
 
 ```bash
-npm run build
-npm start
+pnpm build
+pnpm start
 ```
 
 Vercel / Netlify などにそのままデプロイ可能。
+
+## お問い合わせフォーム（Google フォーム）
+
+`/contact` でフォームを埋め込み表示します。Google フォーム作成後、以下どちらかで URL を設定してください。
+
+- **環境変数**: `.env.local` に `NEXT_PUBLIC_GOOGLE_FORM_URL=フォームのURL` を追加（`.env.local.example` を参照）
+- **コード**: `src/lib/constants.ts` の `CONTACT_FORM_URL` を直接書き換え
+
+未設定のときは設定手順が表示されます。
