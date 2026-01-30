@@ -46,6 +46,9 @@ export default function Home() {
               <span>「こういうサービスです」と一発で伝わる</span>
             </li>
           </ul>
+          <p className="text-sm text-muted-foreground mt-4">
+            例えば、こんな感じの簡易的なサイトもお作りできます。
+          </p>
         </section>
 
         {/* こんな方へ */}
