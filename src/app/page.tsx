@@ -10,7 +10,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background">
       <header className="border-b border-border bg-muted/20">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-          <span className="font-bold text-lg">(MVP)^2</span>
+          <span className="font-bold text-lg">(MVP)²</span>
         </div>
       </header>
 
@@ -26,7 +26,7 @@ export default function Home() {
             を、Web・アプリとして短期間で作るサービスです。
           </p>
           <p className="text-muted-foreground text-xs mt-3 max-w-xl mx-auto">
-            その MVP を、MVP（最優秀選手）が作る。だから (MVP)^2。
+            その MVP を、MVP（最優秀選手）が作る。だから (MVP)²。
           </p>
         </section>
 

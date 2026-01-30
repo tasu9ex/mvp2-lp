@@ -10,7 +10,7 @@ export default function ContactPage() {
       <header className="border-b border-border bg-muted/20">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="font-bold text-lg hover:opacity-80">
-            (MVP)^2
+            (MVP)²
           </Link>
           <Link
             href="/"
