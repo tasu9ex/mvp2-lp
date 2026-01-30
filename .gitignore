@@ -10,6 +10,9 @@ out
 build
 dist
 
+# local / profile
+.account
+
 # env
 .env
 .env.local
@@ -35,3 +38,4 @@ Thumbs.db
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+.vercel

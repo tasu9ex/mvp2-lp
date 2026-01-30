@@ -59,7 +59,7 @@ export default function Home() {
             <li>投資家に見せるものがなくて止まっている</li>
           </ul>
           <p className="text-sm text-foreground mt-3">
-            まずは気軽に相談してください。最初のお客さん目線での率直な意見も歓迎です。
+            まずは気軽にご相談ください。率直なご意見・ご要望も歓迎です。
           </p>
         </section>
 
