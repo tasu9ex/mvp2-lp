@@ -35,6 +35,9 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
+# docs
+docs-(MVP)^2/
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
